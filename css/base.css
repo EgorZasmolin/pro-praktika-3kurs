@@ -1,0 +1,16 @@
+body {
+  font-family: "Poppins", "OpenSans", "Raleway", sans-serif;
+  font-size: 20px;
+  color: #212121;
+  font-weight: 400;
+  position: absolute;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.container1 {
+  width: 1669px;
+  height: 626px;
+}

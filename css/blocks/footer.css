@@ -1,0 +1,160 @@
+.footer {
+  width: 100%;
+  height: 303px;
+  margin-top: -80px;
+  justify-content: space-around;
+  background-color: #f8f8f8;
+}
+.textafooter {
+  margin-left: 190px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.logo2 {
+  width: 151px;
+  height: 47px;
+}
+.text11 {
+  margin-top: 30px;
+  width: 350px;
+  height: 56px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  color: #646464;
+}
+.zagolovokstolbika1 {
+  font-weight: bold;
+  color: #212121;
+  font-size: 24px;
+}
+.stolbik1 {
+  margin-left: 210px;
+  width: 182px;
+  height: 253px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 40px;
+  color: #646464;
+}
+.zagolovokstolbika2 {
+  font-weight: bold;
+  color: #212121;
+  font-size: 24px;
+}
+.stolbik2 {
+  margin-left: 115px;
+  width: 182px;
+  height: 253px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 40px;
+  color: #646464;
+}
+.zagolovokstolbika3 {
+  font-weight: bold;
+  color: #212121;
+  font-size: 24px;
+}
+.stolbik3 {
+  width: 182px;
+  height: 253px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 40px;
+  color: #646464;
+}
+.copyraight {
+  width: 427px;
+  height: 21px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  color: #646464;
+}
+.ikonkifooter {
+  column-gap: 15px;
+  margin-top: 25px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.ikonkizagolovok {
+  width: 111px;
+  height: 33px;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 24px;
+  color: #111111;
+}
+.krug1 {
+  display: flex;
+  width: 37.17px;
+  height: 37.17px;
+  background: #d5d5d5;
+  border-radius: 50%;
+  align-items: center;
+}
+.ikonka11 {
+  width: 20.01px;
+  height: 19.44px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.krug2 {
+  display: flex;
+  width: 37.17px;
+  height: 37.17px;
+  background: #37806b;
+  border-radius: 50%;
+  align-items: center;
+}
+.ikonka21 {
+  width: 20.01px;
+  height: 19.44px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.krug3 {
+  display: flex;
+  width: 37.17px;
+  height: 37.17px;
+  background: #d5d5d5;
+  border-radius: 50%;
+  align-items: center;
+}
+.ikonka31 {
+  width: 20.01px;
+  height: 19.44px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.krug4 {
+  display: flex;
+  width: 37.17px;
+  height: 37.17px;
+  background: #d5d5d5;
+  border-radius: 50%;
+  align-items: center;
+}
+.ikonka41 {
+  width: 20.01px;
+  height: 19.44px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.copytext {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
