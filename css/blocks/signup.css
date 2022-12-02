@@ -103,4 +103,41 @@
       color: #444;
       cursor: not-allowed;
   }
+  .li2{
+    display: block;
+    margin-bottom: 30px;
+  }
+  .hr2{
+  display: block;
+  align-items: center;
+  width: 600px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 20px;
+  color: #646464;
+  }
+  form{
+    display: block;
+    padding: 50px;
+    width: 600px;
+    height: 300px;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  form input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rama{
+  box-sizing: border-box;
+  width: 517px;
+  height: 426px;
+  border: 2px solid #b0855b;
+  border-radius: 140px 0px;
+  color: #b0855b;
+  z-index: -1;
+  }
   
