@@ -15,6 +15,13 @@ body {
   height: 626px;
 }
 .author{
+  background-color: #f8f8f8;
+  margin-top: 100px;
+  width: 100%;
+  height: 626px;
+}
+.user{
+  background-color: #f8f8f8;
   margin-top: 100px;
   width: 100%;
   height: 626px;

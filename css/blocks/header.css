@@ -49,23 +49,12 @@ a:hover, a:active {
   border: none;
   text-decoration: none;
 }
-.button1:focus-visible {
-	border: 1px solid #c7772c;
-	outline: none;
-}
+
 .button1:hover {
 	transition: all 0.2s;
 	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
 }
-.button1:active {
-	background-color: #808080;
-}
-.button1:disabled {
-	background-color: #eee;
-	border-color: #eee;
-	color: #444;
-	cursor: not-allowed;
-}
+
 .signin button2 {}
 .button2 {
   margin-top: 6px;
@@ -86,20 +75,9 @@ a:hover, a:active {
   border: none;
   text-decoration: none;
 }
-.button2:focus-visible {
-	border: 1px solid #c7772c;
-	outline: none;
-}
+
 .button2:hover {
 	transition: all 0.2s;
 	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
 }
-.button2:active {
-	background-color: #808080;
-}
-.button2:disabled {
-	background-color: #eee;
-	border-color: #eee;
-	color: #444;
-	cursor: not-allowed;
-}
+

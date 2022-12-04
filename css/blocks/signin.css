@@ -80,7 +80,6 @@
       transition: all 0.2s;
       box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
   }
-
   .create{
     text-align: center;
     font-family: "Poppins";
@@ -88,7 +87,26 @@
     font-size: 72px;
     color: #212121;
   }
-  .li2{
+  form{
+    display: block;
+    padding: 50px;
+    width: 600px;
+    height: 300px;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .hr3{
+    display: block;
+  align-items: center;
+  width: 600px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 20px;
+  color: #646464;
+  }
+  .li3{
     display: block;
     margin-bottom: 35px;
   }
@@ -113,46 +131,7 @@
     transition: all 0.2s;
     box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 15%);
   }
-  .hr2{
-  display: block;
-  align-items: center;
-  width: 600px;
-  font-family: "Open Sans";
-  font-weight: 600;
-  font-size: 20px;
-  color: #646464;
-  }
-  form{
-    display: block;
-    padding: 50px;
-    width: 600px;
-    height: 300px;
-    color: white;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-  }
-  /* form input {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  } */
   input[type=text]{
-    border: none;
-    line-height: 50px;
-    text-align: start;
-    width: 72px;
-    height: 48.23px;
-    font-family: "Raleway";
-    font-weight: 500;
-    font-size: 18px;
-    color: #646464;
-    width: 272px;
-    height: 50px;
-    background: #eeeeee;
-    border-radius: 20px 0px;
-  }
-  input[type=email]{
     border: none;
     line-height: 50px;
     text-align: start;
@@ -182,17 +161,15 @@
     background: #eeeeee;
     border-radius: 20px 0px;
   }
-  
   .rama{
-  display: block;
-  box-sizing: border-box;
-  width: 617px;
-  height: 526px;
-  border: 2px solid #b0855b;
-  border-radius: 140px 0px;
-  color: #b0855b;
-  z-index: -1;
-  align-items: center;
-  margin-top: -475px;
-  }
-  
+    display: block;
+    box-sizing: border-box;
+    width: 617px;
+    height: 526px;
+    border: 2px solid #b0855b;
+    border-radius: 140px 0px;
+    color: #b0855b;
+    z-index: -1;
+    align-items: center;
+    margin-top: -356px;
+    }
