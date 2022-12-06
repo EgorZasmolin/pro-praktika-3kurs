@@ -72,10 +72,11 @@
   width: 517px;
   height: 426px;
   border: 2px solid #b0855b;
-  border-radius: 140px 0px;
+  border-radius: 25px 0px;
   color: #b0855b;
   z-index: -1;
 }
+
 .foto1 {
   top: -50px;
   left: -50px;
@@ -83,6 +84,6 @@
   width: 517px;
   height: 426px;
   border: 2px solid #b0855b;
-  border-radius: 140px 0px;
+  border-radius: 25px 0px;
   background: url(/images/toa-heftiba-FV3GConVSss-unsplash.jpg);
 }

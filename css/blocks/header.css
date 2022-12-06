@@ -39,7 +39,7 @@ a:hover, a:active {
   width: 97px;
   height: 32px;
   background: #caa892;
-  border-radius: 15px 0px;
+  border-radius: 5px 0px;
   font-family: "Open Sans";
   font-weight: 600;
   font-size: 12px;
@@ -65,7 +65,7 @@ a:hover, a:active {
   width: 97px;
   height: 32px;
   background: #caa892;
-  border-radius: 15px 0px;
+  border-radius: 5px 0px;
   font-family: "Open Sans";
   font-weight: 600;
   font-size: 12px;
