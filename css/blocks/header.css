@@ -1,6 +1,6 @@
 .header {
   width: 1520px;
-  height: 47px;
+  height: 57px;
   display: flex;
   justify-content: space-between;
 }
@@ -38,7 +38,7 @@ a:hover, a:active {
   margin-left: 50px;
   width: 97px;
   height: 32px;
-  background: #caa892;
+  background: #FA8F2D;
   border-radius: 5px 0px;
   font-family: "Open Sans";
   font-weight: 600;
@@ -64,7 +64,7 @@ a:hover, a:active {
   margin-left: 50px;
   width: 97px;
   height: 32px;
-  background: #caa892;
+  background: #FA8F2D;
   border-radius: 5px 0px;
   font-family: "Open Sans";
   font-weight: 600;
