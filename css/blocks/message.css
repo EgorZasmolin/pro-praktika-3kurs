@@ -34,7 +34,7 @@
     width: 272px;
     height: 50px;
     background: #eeeeee;
-    border-radius: 5px 0px;
+    border-radius: 8px 0px;
   }
   input[type=email]{
     border: none;
@@ -49,7 +49,7 @@
     width: 272px;
     height: 50px;
     background: #eeeeee;
-    border-radius: 5px 0px;
+    border-radius: 8px 0px;
   }
   textarea{
     border: none;
@@ -64,7 +64,7 @@
     width: 472px;
     height: 150px;
     background: #eeeeee;
-    border-radius: 5px 0px;
+    border-radius: 8px 0px;
   }
   .btn{
       display: flex;
@@ -72,8 +72,8 @@
       align-items: center;
       width: 152px;
       height: 52px;
-      background: #37806b;
-      border-radius: 5px 0px;
+      background: #FA8F2D;
+      border-radius: 10px 0px;
       font-family: "Open Sans";
       font-weight: 700;
       font-size: 15px;
@@ -92,9 +92,9 @@
       box-sizing: border-box;
       width: 617px;
       height: 526px;
-      border: 2px solid #b0855b;
-      border-radius: 140px 0px;
-      color: #b0855b;
+      border: 2px solid #7F24A6;
+      border-radius: 50px 0px;
+      color: #7F24A6;
       z-index: -1;
       align-items: center;
       margin-top: -455px;

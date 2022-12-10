@@ -4,7 +4,6 @@
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  margin-bottom: 20px;
 }
 .zagolovok1{
     width: 549px;
@@ -23,7 +22,7 @@
   text-align: justify;
   color: #646464;
 }
-p{
+.tx1{
     margin-bottom: 20px;
 }
 .slideshow{
@@ -35,7 +34,6 @@ p{
     position: relative;
     list-style-type: none;
   }
-  
   .slide{
     position: absolute;
     left: 0px;

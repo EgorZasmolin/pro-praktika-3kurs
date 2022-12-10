@@ -1,0 +1,31 @@
+.maptext{
+    margin-left: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mapzagolovok{
+    width: 549px;
+  height: 156px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 72px;
+  color: #212121;
+}
+.maptext {
+    width: 603px;
+  height: 90px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  text-align: justify;
+  color: #646464;
+}
+.maptxt{
+    margin-bottom: 20px;
+}
+.map1{
+    margin-right: 100px;
+    margin-top: 20px;
+}
