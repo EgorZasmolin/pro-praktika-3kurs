@@ -3,7 +3,7 @@
   height: 300px;
   margin-top: 30px;
   justify-content: space-around;
-  background-color: #f8f8f8;
+  background-color: #f5f3f3;
 }
 .textafooter {
   margin-left: 190px;
@@ -67,7 +67,7 @@
   color: #646464;
 }
 .copyraight {
-  width: 427px;
+  width: 627px;
   height: 21px;
   font-family: "Open Sans";
   font-weight: 400;
@@ -100,6 +100,7 @@
   align-items: center;
 }
 .ikonka11 {
+  display: flex;
   width: 20.01px;
   height: 19.44px;
   margin-left: auto;
@@ -115,6 +116,7 @@
   align-items: center;
 }
 .ikonka21 {
+  display: flex;
   width: 20.01px;
   height: 19.44px;
   margin-left: auto;
@@ -130,6 +132,7 @@
   align-items: center;
 }
 .ikonka31 {
+  display: flex;
   width: 20.01px;
   height: 19.44px;
   margin-left: auto;
