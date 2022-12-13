@@ -99,6 +99,9 @@
   border-radius: 50%;
   align-items: center;
 }
+.krug1:hover{
+  background: #F0F82D;
+}
 .ikonka11 {
   display: flex;
   width: 20.01px;
@@ -111,9 +114,12 @@
   display: flex;
   width: 37.17px;
   height: 37.17px;
-  background: #37806b;
+  background: #d5d5d5;
   border-radius: 50%;
   align-items: center;
+}
+.krug2:hover{
+  background: #F0F82D;
 }
 .ikonka21 {
   display: flex;
@@ -131,23 +137,11 @@
   border-radius: 50%;
   align-items: center;
 }
+.krug3:hover{
+  background: #F0F82D;
+}
 .ikonka31 {
   display: flex;
-  width: 20.01px;
-  height: 19.44px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-.krug4 {
-  display: flex;
-  width: 37.17px;
-  height: 37.17px;
-  background: #d5d5d5;
-  border-radius: 50%;
-  align-items: center;
-}
-.ikonka41 {
   width: 20.01px;
   height: 19.44px;
   margin-left: auto;
@@ -160,4 +154,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.mer{
+  width: 220px;
+  height: 90px;
+  margin-top: -10px;
+}
+.lo{
+  width: 130px;
+  height: 130px;
+  margin-top: -20px;
 }
