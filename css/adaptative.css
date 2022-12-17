@@ -1,8 +1,115 @@
-@media screen and (max-width: 1200px){
-    .header {
-        flex-direction: row ;
-        align-items: flex-start;
-        max-width: 1200px;
+@media all and (max-width: 1200px){
+    .container1{
+        height: 790px !important;
     }
-    
+    .wrapper{
+        width: 1200px;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        width: 1200px !important;
+    }
+    .imglogo{
+        margin-left: -200px;
+    }
+    .logo{
+        display: flex;
+        margin-right: -250px;
+        font-size: 10em;
+    }
+    .menu{
+        display: flex;
+        list-style: none;
+    }
+    .bigsignin{
+        margin-right: 50px;
+    }
+    .footer{
+        justify-content: space-between;
+        max-width: 100% !important;
+    }
+    .copytext{
+        margin-left: 100px !important;
+    }
+    .logotext{
+        margin-left: -50px !important;
+    }
+    .imglogo2{
+        margin-left: -100px !important;
+    }
+    .bigtext11{
+        margin-left: -100px !important;
+    }
+    .ikonkitextfooter{
+        margin-right: -50px !important;
+    }
+
+    .textintro{
+        max-width: 100%;
+        margin-top: 500px;
+    }
+    .zagolovokintro{
+        width: 100% !important;
+        text-align: center;
+    }
+    .pintro{
+        width: 100% !important;
+        text-align: center;
+        margin-left: 30px !important;
+    }
+    .txtintro{
+        margin-left: -30px;
+        width: 100% !important;
+    }
+    .txintro{
+        font-size: 15px !important;
+    }
+    .sliderintro{
+        max-width: 100%;
+        max-height: 426px;
+    }
+    .middle{
+        margin-top: -300px !important;
+        margin-left: -400px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        width: 576px !important;
+    }
+    .imglogo{
+        margin-left: -200px;
+        width: 90px !important;
+        height: 40px !important;
+    }
+    .menu{
+        display: inline-block;
+        margin-left: 100px;
+       
+    }
+    .mobilehr{
+        display: inline-block !important;
+    }
+    .mli{
+        margin-bottom: 12px !important;
+        font-size: 10px !important;
+    }
+    .mobilesignup{
+        display: flex !important;
+        margin-left: -400px !important;
+        width: 77px !important;
+        height: 32px !important;
+        font-size: 10px !important;
+    }
+    .mobilesignin{
+        display: flex !important;
+        margin-left: -400px !important;
+        margin-top: 45px !important;
+        width: 77px !important;
+        height: 32px !important;
+        font-size: 10px !important;
+    }
 }
