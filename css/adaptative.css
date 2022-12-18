@@ -1,10 +1,14 @@
 @media all and (max-width: 1200px){
+    /* Блоки контента */
     .container1{
+        width: 1200px !important;
         height: 790px !important;
     }
+    /* Основная страница */
     .wrapper{
-        width: 1200px;
+        width: 1200px; 
     }
+    /* Шапка */
     .header {
         display: flex;
         justify-content: space-between;
@@ -16,7 +20,6 @@
     .logo{
         display: flex;
         margin-right: -250px;
-        font-size: 10em;
     }
     .menu{
         display: flex;
@@ -25,9 +28,10 @@
     .bigsignin{
         margin-right: 50px;
     }
+    /* Футер */
     .footer{
         justify-content: space-between;
-        max-width: 100% !important;
+        width: 1200px !important;
     }
     .copytext{
         margin-left: 100px !important;
@@ -44,7 +48,7 @@
     .ikonkitextfooter{
         margin-right: -50px !important;
     }
-
+    /* Контент главной страницы */
     .textintro{
         max-width: 100%;
         margin-top: 500px;
@@ -75,6 +79,16 @@
     }
 }
 @media only screen and (max-width: 576px) {
+    /* Блоки контента */
+    .container1{
+        width: 576px !important;
+        height: 790px !important;
+    }
+     /* Основная страница */
+    .wrapper{
+        width: 576px;
+    }
+    /* Шапка страницы */
     .header {
         display: flex;
         justify-content: space-between;
@@ -111,5 +125,72 @@
         width: 77px !important;
         height: 32px !important;
         font-size: 10px !important;
+    }
+    /* Футер */
+    .footer{
+        width: 576px !important;
+        height: 100% !important;
+        margin-top: 200px !important;
+        flex-direction: column !important;
+    }
+    .copytext{
+        margin-top: 20px !important;
+        margin-left: 70px !important;
+        font-size: 20px !important;
+    }
+    hr{
+        margin-top: 300px !important;
+    }
+    .logotext{
+        width: 100% !important;
+    }
+    .imglogo2{
+        margin-left: -50px !important;
+        width: 100px !important;
+        height: 50px !important;
+    }
+    .pictures{
+        display: flex;
+        flex-direction: column !important;
+        gap: 100px !important;
+        margin-top: 170px !important;
+        margin-left: -200px !important;
+    }
+    .bigtext11{
+        margin-left: -100px !important;
+        margin-top: 25px !important;
+    }
+    .ikonkitextfooter{
+        margin-left: -100px !important;
+    }
+    /* Контент главной страницы */
+    .textintro{
+        max-width: 100%;
+        margin-top: 500px;
+    }
+    .zagolovokintro{
+        width: 100% !important;
+        text-align: center;
+        font-size: 50px;
+    }
+    .pintro{
+        width: 100% !important;
+        text-align: center;
+        margin-left: 20px !important;
+    }
+    .txtintro{
+        margin-left: -30px;
+        width: 100% !important;
+    }
+    .txintro{
+        font-size: 15px !important;
+    }
+    .sliderintro{
+        max-width: 560px !important;
+        max-height: 326px !important;
+    }
+    .middle{
+        margin-top: -750px !important;
+        margin-left: -230px;
     }
 }
