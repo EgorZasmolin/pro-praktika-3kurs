@@ -21,7 +21,7 @@
           box-sizing: border-box;
           padding: 20px;
         }
-          h2 {
+          #hcard {
             font-family: "Poppins";
             font-size: 25px;
             color: #ffffff;
@@ -46,17 +46,26 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
+          .wood:hover{
+            background-color: #F0F82D;
+          }
 
           .clay {
             background-color: #7F24A6;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
+          .clay:hover{
+            background-color: #F0F82D;
+          }
 
           .t-shirt {
             background-color: #7F24A6;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+          }
+          .t-shirt:hover{
+            background-color: #F0F82D;
           }
 
         .face2 {

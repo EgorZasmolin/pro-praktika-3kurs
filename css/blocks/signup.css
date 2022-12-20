@@ -1,4 +1,4 @@
-.create{
+.create1{
     text-align: center;
     font-family: "Poppins";
     font-weight: 600;
@@ -27,6 +27,7 @@
     text-decoration: none;
   }
   .buttonsubmit:hover{
+    background-color: #F0F82D;
     transition: all 0.2s;
     box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 15%);
   }
@@ -49,11 +50,6 @@
     margin-left: auto;
     text-align: center;
   }
-  /* form input {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  } */
   input[type=text]{
     border: none;
     line-height: 50px;
@@ -100,7 +96,7 @@
     border-radius: 8px 0px;
   }
   
-  .rama{
+  .rama1{
   display: block;
   box-sizing: border-box;
   width: 587px;

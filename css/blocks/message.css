@@ -1,11 +1,13 @@
 .hr4{
     display: block;
-    align-items: center;
     width: 600px;
     font-family: "Open Sans";
     font-weight: 600;
     font-size: 20px;
     color: #646464;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     }
   .li4{
     display: block;
@@ -84,6 +86,7 @@
       text-decoration: none;
     }
     .btn:hover{
+      background-color: #F0F82D;
       transition: all 0.2s;
       box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 15%);
     }

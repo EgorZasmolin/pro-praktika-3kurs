@@ -1,4 +1,4 @@
-.create{
+.create2{
     text-align: center;
     font-family: "Poppins";
     font-weight: 600;
@@ -14,6 +14,9 @@
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+  }
+  .more-padding{
+
   }
   .hr3{
     display: block;
@@ -46,6 +49,7 @@
     text-decoration: none;
   }
   .buttonsubmit:hover{
+    background-color: #F0F82D;
     transition: all 0.2s;
     box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 15%);
   }
@@ -79,7 +83,7 @@
     background: #eeeeee;
     border-radius: 8px 0px;
   }
-  .rama{
+  .rama2{
     display: block;
     box-sizing: border-box;
     width: 587px;

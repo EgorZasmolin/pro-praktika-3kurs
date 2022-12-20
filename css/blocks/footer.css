@@ -160,6 +160,9 @@
   flex-direction: row;
   gap: 150px;
 }
+.pictures1{
+  margin-left: -200px;
+}
 .mer{
   width: 220px;
   height: 90px;
@@ -169,4 +172,16 @@
   width: 130px;
   height: 130px;
   margin-top: -20px;
+}
+.mb{
+  
+}
+.lopc{
+  margin-right: 69px;
+}
+.mbpc{
+  margin-left: -269px;
+}
+.merpc{
+  margin-left: -101px;
 }

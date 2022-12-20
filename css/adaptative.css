@@ -48,6 +48,11 @@
     .ikonkitextfooter{
         margin-right: -50px !important;
     }
+    .pictures{
+        display: flex;
+        flex-direction: row !important;
+        gap:50px !important;
+    }
     /* Контент главной страницы */
     .textintro{
         max-width: 100%;
@@ -84,14 +89,40 @@
         width: 576px !important;
         height: 790px !important;
     }
+    .container2{
+        width: 576px !important;
+        flex-direction: column !important;
+        gap: 50px !important;
+    }
+    .article1{
+        width: 576px !important;
+    }
+    .article2{
+        width: 576px !important;
+    }
+    .article3{
+        width: 576px !important;
+    }
+    .map{
+        width: 576px !important;
+    }
+    .sms{
+        width: 576px !important;
+    }
+    .author{
+        width: 576px !important;
+    }
+    .user{
+        width: 576px !important;
+    }
      /* Основная страница */
     .wrapper{
         width: 576px;
     }
     /* Шапка страницы */
     .header {
-        display: flex;
-        justify-content: space-between;
+        display: flex !important;
+        justify-content: space-between !important;
         width: 576px !important;
     }
     .imglogo{
@@ -154,15 +185,25 @@
         flex-direction: column !important;
         gap: 100px !important;
         margin-top: 170px !important;
-        margin-left: -200px !important;
+        margin-left: -210px !important;
     }
     .bigtext11{
         margin-left: -100px !important;
         margin-top: 25px !important;
     }
     .ikonkitextfooter{
-        margin-left: -100px !important;
+        margin-left: -250px !important;
     }
+    .lo{
+        margin-left: 150px !important;
+      }
+    .mb{
+        margin-left: 140px !important;
+    }
+    .mer{
+        margin-left: 40px !important;
+    }
+    
     /* Контент главной страницы */
     .textintro{
         max-width: 100%;
@@ -193,4 +234,171 @@
         margin-top: -750px !important;
         margin-left: -230px;
     }
+    /* Карточки мероприятий */
+    .card{
+        width: 300px !important;
+        height: 400px !important;
+    }
+    #hcard{
+        font-size: 20px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .wood{
+        font-size: 20px !important;
+        width: 300px !important;
+        margin-left: 200px !important;
+    }
+    .clay{
+        font-size: 20px !important;
+        width: 300px !important;
+        margin-left: 200px !important;
+    }
+    .t-shirt{
+        font-size: 20px !important;
+        width: 300px !important;
+        margin-left: 200px !important;
+    }
+    .wood1{
+        width: 300px !important;
+        margin-left: 200px !important;
+    }
+    .clay1{
+        width: 300px !important;
+        margin-left: 200px !important;
+    }
+    .t-shirt1{
+        width: 300px !important;
+        margin-left: 200px !important;
+    }
+
+    /* Столярное мастерство */
+    .text1{
+        width: 576px !important;
+        margin-left: -100px !important;
+    }
+    .zagolovok1{
+        width: 349px !important;
+      height: 56px !important;
+      font-weight: 600;
+      font-size: 32px !important;
+      margin-left: 100px !important;
+    }
+    .txt1 {
+        width: 353px !important;
+      height: 90px;
+      font-weight: 400;
+      font-size: 13px !important;
+      margin-left: 100px !important;
+    }
+    .slider1{
+        width: 150px !important;
+        height: 300px !important;
+      }
+    /* Гончарное Мастерство */
+    .text2{
+        margin-left: -100px !important;
+        width: 576px !important;
+      }
+      .zagolovok2{
+        width: 349px !important;
+        height: 56px !important;
+        font-weight: 600;
+        font-size: 32px !important;
+        margin-left: 250px !important;
+      }
+      .txt2 {
+          width: 553px !important;
+        height: 90px;
+        font-weight: 400;
+        font-size: 13px !important;
+        margin-left: 110px !important;
+      }
+      .slider2{
+        width: 400px !important;
+        height: 200px !important;
+        margin-top: 300px !important;
+        margin-left: -420px !important;
+      }
+      /* Печать на одежде */
+    .text3{
+        width: 576px !important;
+        margin-left: -100px !important;
+    }
+    .zagolovok3{
+        width: 349px !important;
+      height: 56px !important;
+      font-weight: 600;
+      font-size: 32px !important;
+      margin-left: 100px !important;
+    }
+    .txt3{
+        width: 353px !important;
+      height: 90px;
+      font-weight: 400;
+      font-size: 13px !important;
+      margin-left: 100px !important;
+    }
+    .slider3{
+        width: 150px !important;
+        height: 300px !important;
+      }
+      /* Где нас найти */
+      .map1{
+        width: 100% !important;
+        margin-left: -610px !important;
+      }
+      .mapmobile{
+        width: 500px !important;
+      }
+      .maptext{
+       margin-top: 550px !important;
+       margin-left: 100px !important;
+    }
+    .mapzagolovok{
+      width: 549px;
+      height: 56px !important;
+      font-size: 32px !important;
+    }
+    .maptext {
+      width: 603px;
+      height: 40px !important;
+      font-weight: 400;
+      font-size: 10px !important;
+    }
+    /* Связь с нами */
+    .h34{
+        width: 500px !important;
+        margin-left: -50px !important;
+    }
+    .rama{
+      width: 576px !important;
+      height: 456px !important;
+    }
+    /* Регистрация */
+    .signapnodisplay{
+        width: 500px !important;
+        margin-left: -50px !important;
+    }
+    .create1{
+        font-size: 32px !important;
+        margin-left: 200px !important;
+    }
+    .rama1{
+        width: 576px !important;
+        height: 456px !important;
+      }
+      /* Авторизация */
+    .hr3{
+        width: 500px !important;
+    }
+    .create2{
+        font-size: 32px !important;
+        margin-left: 30px !important;
+    }
+    .rama2{
+        width: 576px !important;
+        height: 456px !important;
+        margin-left: -50px !important;
+      }
 }
