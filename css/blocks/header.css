@@ -51,6 +51,7 @@ a:hover, a:active {
 }
 
 .button1:hover {
+  background-color: #F0F82D;
 	transition: all 0.2s;
 	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
 }
@@ -74,9 +75,11 @@ a:hover, a:active {
   color: #ffffff;
   border: none;
   text-decoration: none;
+  outline: none;
 }
 
 .button2:hover {
+  background-color: #F0F82D;
 	transition: all 0.2s;
 	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
 }

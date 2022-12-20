@@ -4,9 +4,35 @@
         width: 1200px !important;
         height: 790px !important;
     }
+    .container2{
+        width: 1200px !important;
+    }
+    .article1{
+       width: 1200px !important;
+    }
+    .article2{
+        width: 1200px !important;
+    }
+    .article3{
+        width: 1200px !important;
+    }
+    .map{
+        width: 1200px !important;
+    }
+    .sms{
+        width: 1200px !important;
+    }
+    .author{
+        width: 1200px !important;
+    }
+    .user{
+        width: 1200px !important;
+    }
+
     /* Основная страница */
     .wrapper{
-        width: 1200px; 
+        width: 100% !important;
+        overflow-x: hidden ; 
     }
     /* Шапка */
     .header {
@@ -52,6 +78,16 @@
         display: flex;
         flex-direction: row !important;
         gap:50px !important;
+        margin-left: -200px !important;
+    }
+    .mb{
+        margin-left: -170px !important;
+    }
+    .mb1{
+        margin-left: -239px !important;
+    }
+    .mer1{
+        margin-left: -69px !important;
     }
     /* Контент главной страницы */
     .textintro{
@@ -82,6 +118,96 @@
         margin-top: -300px !important;
         margin-left: -400px;
     }
+    /* Карточки мероприятий */
+    #hcard{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .wood{
+        width: 300px !important;
+        margin-left: -155px !important;
+    }
+    .clay{
+        width: 300px !important;
+        margin-left: -155px !important;
+    }
+    .t-shirt{
+        width: 300px !important;
+        margin-left: -155px !important;
+    }
+    .wood1{
+        width: 300px !important;
+        margin-left: -160px !important;
+        font-size: 16px !important;
+    }
+    .clay1{
+        width: 300px !important;
+        margin-left: -164px !important;
+        font-size: 16px !important;
+    }
+    .t-shirt1{
+        width: 300px !important;
+        margin-left: -160px !important;
+        font-size: 16px !important;
+    }
+    /* Столярное мастерство */
+    .text1{
+        margin-left: 200px !important;
+    }
+    .zagolovok1{
+        margin-left: -150px !important;
+    }
+    .txt1 {
+        margin-left: -150px !important;
+    }
+    .slider1{
+        margin-left: 70px !important;
+    }
+    /* Гончарное дело */
+    .text2{
+        margin-left: 200px !important;
+    }
+    .zagolovok2{
+        margin-left: -150px !important;
+    }
+    .txt2 {
+        margin-left: -150px !important;
+    }
+    .slider2{
+        width: 500px !important;
+        height: 200px !important;
+        margin-top: 180px !important;
+        margin-left: 5px !important;
+    }
+    /* Печать на одежде */
+    .text3{
+        margin-left: 200px !important;
+    }
+    .zagolovok3{
+        margin-left: -150px !important;
+    }
+    .txt3 {
+        margin-left: -150px !important;
+    }
+    .slider3{
+        margin-left: 70px !important;
+    }
+    /* Где нас найти */
+    .map1{
+        width: 100% !important;
+        margin-left: -20px !important;
+      }
+      .mapmobile{
+        width: 600px !important;
+      }
+    .mapzagolovok{
+        margin-left: -150px !important;
+    }
+    .maptxt{
+        width: 500px !important;
+        margin-left: -150px !important;
+    }
+
 }
 @media only screen and (max-width: 576px) {
     /* Блоки контента */
@@ -117,7 +243,8 @@
     }
      /* Основная страница */
     .wrapper{
-        width: 576px;
+        width: 100% !important;
+        overflow-x: hidden;
     }
     /* Шапка страницы */
     .header {
@@ -127,8 +254,8 @@
     }
     .imglogo{
         margin-left: -200px;
-        width: 90px !important;
-        height: 40px !important;
+        width: 160px !important;
+        height: 60px !important;
     }
     .menu{
         display: inline-block;
@@ -176,9 +303,9 @@
         width: 100% !important;
     }
     .imglogo2{
-        margin-left: -50px !important;
-        width: 100px !important;
-        height: 50px !important;
+        margin-left: -70px !important;
+        width: 180px !important;
+        height: 60px !important;
     }
     .pictures{
         display: flex;
@@ -294,6 +421,7 @@
     .slider1{
         width: 150px !important;
         height: 300px !important;
+        margin-left: -20px !important;
       }
     /* Гончарное Мастерство */
     .text2{
@@ -342,18 +470,19 @@
     .slider3{
         width: 150px !important;
         height: 300px !important;
+        margin-left: -20px !important;
       }
       /* Где нас найти */
       .map1{
         width: 100% !important;
-        margin-left: -610px !important;
       }
       .mapmobile{
         width: 500px !important;
+        margin-left: -640px !important;
       }
       .maptext{
        margin-top: 550px !important;
-       margin-left: 100px !important;
+       margin-left: 300px !important;
     }
     .mapzagolovok{
       width: 549px;
