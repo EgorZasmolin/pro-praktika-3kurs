@@ -22,7 +22,7 @@ a:link, a:visited {
 }
 a:hover, a:active {
   color: #646464;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .logo {
   margin-top: 6px;
