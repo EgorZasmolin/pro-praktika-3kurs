@@ -12,120 +12,154 @@
     <link rel="stylesheet" href="css/base.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Макет сайта</title>
   </head>
   <body>
     <div class="wrapper">
-    <div class="header">
-      <div class="logo">
-       <a href="index.html"><img class="imglogo" src="./images/cmit5.png" alt="logo" /></a>
+      <div class="header">
+        <div class="logo">
+          <a href="index.html"
+            ><img class="imglogo" src="./images/cmit5.png" alt="logo"
+          /></a>
+        </div>
+        <div class="menu">
+          <ul class="hr mobilehr">
+            <li class="mli"><a href="index.html">ГЛАВНАЯ</a></li>
+            <li class="mli"><a href="cards.html">МАРШРУТ</a></li>
+            <li class="mli"><a href="maps.html">ЗОНЫ</a></li>
+            <li class="mli"><a href="message.html">БРОНИРОВАНИЕ</a></li>
+          </ul>
+        </div>
+        <div class="signup">
+          <a href="signup.html">
+            <input
+              class="button1 mobilesignup"
+              type="button"
+              value="РЕГИСТРАЦИЯ"
+            />
+          </a>
+        </div>
+        <div class="signin bigsignin">
+          <a href="signin.html">
+            <input class="button2 mobilesignin" type="button" value="ВОЙТИ" />
+          </a>
+        </div>
       </div>
-      <div class="menu">
-        <ul class="hr mobilehr">
-          <li class="mli"><a href="index.html">ГЛАВНАЯ</a></li>
-          <li class="mli"><a href="cards.html">МЕРОПРИЯТИЯ</a></li>
-          <li class="mli"><a href="maps.html">ГДЕ НАС НАЙТИ</a></li>
-          <li class="mli"><a href="message.html">СВЯЗЬ С НАМИ</a></li>
-        </ul>
-      </div>
-      <div class="signup">
-        <a href="signup.html">
-          <input class="button1 mobilesignup" type="button" value="РЕГИСТРАЦИЯ">
-        </a>
-      </div>
-      <div class="signin bigsignin">
-        <a href="signin.html">
-          <input class="button2 mobilesignin" type="button" value="ВОЙТИ">
-      </a>
-    </div> 
+      <div class="container1">
+        <div class="main1row">
+          <div class="textintro">
+            <h1 class="zagolovokintro">ВЫБОРГ</h1>
+            <div class="txtintro">
+              <p class="txintro">
+                Центр молодежного инновационного творчества (ЦМИТ) – расположен
+                на площадке "Мой бизнес" в городе Выборге Ленинградской области.
+                Его основные задачи - развитие производственных навыков у
+                подростков и молодежи, сопровождение наиболее способных учеников
+                и ярких проектов в части грантовой поддержки, вовлечение в
+                инновационную производственную деятельность молодежи.
+              </p>
+              <p class="txintro">
+                ЦМИТ Выборг - это современная производственная лаборатория.
+                Здесь вы можете реализовать свои научно-технические и творческие
+                проекты и идеи. В этом вам помогут 3D-принтеры, лазерные,
+                фрезерные и токарные станки, граверы.
+              </p>
+              <p class="txintro">
+                В центре проводятся курсы для школьников и взрослых по
+                техническим направлениям: 3D-моделирование, робототехника и
+                программирование, черчение и архитектурное проектирование,
+                столярное мастерство.
+              </p>
+            </div>
+          </div>
+          <div class="sliderintro middle">
+            <div class="si">
+              <input type="radio" name="r" id="r1" checked />
+              <input type="radio" name="r" id="r2" />
+              <input type="radio" name="r" id="r3" />
 
-    </div>
-    <div class="container1">
-      <div class="main1row">
-        <div class="textintro">
-          <h1 class="zagolovokintro">Цмит</h1>
-          <div class="txtintro">
-            <p class="txintro pintro">Центр Молодёжного Инновационного Творчества.</p>
-            <p class="txintro">Центр молодежного инновационного творчества (ЦМИТ) – расположен на площадке "Мой бизнес" в городе Выборге Ленинградской области. Его основные задачи - развитие производственных навыков у подростков и молодежи, сопровождение наиболее способных учеников и ярких проектов в части грантовой поддержки, вовлечение в инновационную производственную деятельность молодежи.</p>
-            <p class="txintro">ЦМИТ Выборг - это современная производственная лаборатория. Здесь вы можете реализовать свои научно-технические и творческие проекты и идеи. В этом вам помогут 3D-принтеры, лазерные, фрезерные и токарные станки, граверы.</p>
-            <p class="txintro">В центре проводятся курсы для школьников и взрослых по техническим направлениям: 3D-моделирование, робототехника и программирование, черчение и архитектурное проектирование, столярное мастерство.</p>
+              <div class="slidesintro s1">
+                <img src="./images/slide1.png" />
+              </div>
+              <div class="slidesintro"><img src="./images/slide2.png" /></div>
+              <div class="slidesintro"><img src="./images/slide3.png" /></div>
+            </div>
+            <div class="navigation">
+              <label for="r1" class="bar"></label>
+              <label for="r2" class="bar"></label>
+              <label for="r3" class="bar"></label>
+            </div>
           </div>
         </div>
-        <div class="sliderintro middle">
-          <div class="si">
-            <input type="radio" name="r" id="r1" checked>
-            <input type="radio" name="r" id="r2">
-            <input type="radio" name="r" id="r3">
+      </div>
 
-            <div class="slidesintro s1"><img src="./images/slide1.png"></div>
-            <div class="slidesintro"><img src="./images/slide2.png"></div>
-            <div class="slidesintro"><img src="./images/slide3.png"></div>
+      <div class="footer">
+        <div class="textafooter">
+          <div class="logotext">
+            <div class="logo2">
+              <a href="index.html"
+                ><img class="imglogo2" src="./images/cmit51.png"
+              /></a>
+            </div>
+            <div class="text11 bigtext11">
+              ЦМИТ - Центр Молодёжного Инновационного Творчества
+            </div>
           </div>
-          <div class="navigation">
-            <label for="r1" class="bar"></label>
-            <label for="r2" class="bar"></label>
-            <label for="r3" class="bar"></label>
+          <div class="pictures">
+            <div class="text2">
+              <div class="stick1">
+                <a href="https://lenobl.ru/"
+                  ><img class="lo" src="./images/lo.png"
+                /></a>
+              </div>
+            </div>
+            <div class="text3">
+              <div class="stick2">
+                <a href="https://813.ru/"
+                  ><img class="mb" src="./images/mb.png"
+                /></a>
+              </div>
+            </div>
+            <div class="text4">
+              <div class="stick3">
+                <a href="https://economy.gov.ru/"
+                  ><img class="mer" src="./images/mer.png"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="ikonkitextfooter">
+            <div class="ikonkizagolovok">Связь с нами</div>
+            <div class="ikonkifooter">
+              <a href="https://vk.com/cmitvbg"
+                ><div class="krug1">
+                  <div class="ikonka11">
+                    <img src="./images/vk.png" />
+                  </div></div
+              ></a>
+              <a href=" https://t.me/cmitvbg"
+                ><div class="krug2">
+                  <div class="ikonka21">
+                    <img src="./images/telegram.png" />
+                  </div></div
+              ></a>
+              <a href="https://www.youtube.com/channel/UCG3ssIst2PGhaP3LxQW-deA"
+                ><div class="krug3">
+                  <div class="ikonka31">
+                    <img src="./images/youtube.png" />
+                  </div></div
+              ></a>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="copytext">
+          <div class="copyraight">
+            Авторское право @ 2022 Засмолин Егор. Все права защищены.
           </div>
         </div>
       </div>
     </div>
-
-    <div class="footer">
-      <div class="textafooter">
-        <div class="logotext">
-          <div class="logo2">
-           <a href="index.html"><img class="imglogo2" src="./images/cmit51.png" /></a>
-          </div>
-          <div class="text11 bigtext11">
-            ЦМИТ - Центр Молодёжного Инновационного Творчества 
-          </div>
-        </div>
-        <div class="pictures">
-        <div class="text2">
-          <div class="stick1">
-           <a href="https://lenobl.ru/"><img class="lo" src="./images/lo.png"></a>
-          </div>
-        </div>
-        <div class="text3">
-          <div class="stick2">
-           <a href="https://813.ru/"><img class="mb" src="./images/mb.png"></a>
-          </div>
-        </div>
-        <div class="text4">
-          <div class="stick3">
-           <a href="https://economy.gov.ru/"><img class="mer" src="./images/mer.png"></a>
-          </div>
-        </div>
-      </div>
-        <div class="ikonkitextfooter">
-          <div class="ikonkizagolovok">Связь с нами</div>
-          <div class="ikonkifooter">
-            <a href="https://vk.com/cmitvbg"><div class="krug1">
-              <div class="ikonka11">
-               <img src="./images/vk.png" />
-              </div>
-            </div></a>
-            <a href=" https://t.me/cmitvbg"><div class="krug2">
-              <div class="ikonka21">
-               <img src="./images/telegram.png" />
-              </div>
-            </div></a>
-           <a href="https://www.youtube.com/channel/UCG3ssIst2PGhaP3LxQW-deA"><div class="krug3">
-              <div class="ikonka31">
-                <img src="./images/youtube.png" />
-              </div>
-            </div></a>
-          </div>
-        </div>
-      </div>
-      <hr />
-      <div class="copytext">
-        <div class="copyraight">
-          Авторское право @ 2022 Засмолин Егор. Все права защищены.
-        </div>
-      </div>
-    </div>
-  </div>
   </body>
 </html>

@@ -10,55 +10,55 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-.container1 {
+.booking-algorithm {
   width: 100%;
   height: 526px;
   margin-top: 50px;
 }
-.author{
+.author {
   margin-top: 50px;
   width: 100%;
   height: 526px;
 }
-.user{
+.user {
   margin-top: 50px;
   width: 100%;
   height: 526px;
 }
-.sms{
+.sms {
   margin-top: 50px;
   width: 100%;
   height: 526px;
 }
-.container2{
+.container2 {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
   width: 100%;
   height: 526px;
 }
-.article1{
+.article1 {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
   width: 100%;
   height: 526px;
 }
-.article2{
+.article2 {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
   width: 100%;
   height: 526px;
 }
-.article3{
+.article3 {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
   width: 100%;
   height: 526px;
 }
-.map{
+.map {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;

@@ -16,11 +16,13 @@
   font-size: 13px;
   color: #646464;
 }
-a:link, a:visited {
+a:link,
+a:visited {
   color: #646464;
-  text-decoration: none; 
+  text-decoration: none;
 }
-a:hover, a:active {
+a:hover,
+a:active {
   color: #646464;
   text-decoration: none;
 }
@@ -29,7 +31,8 @@ a:hover, a:active {
   display: flex;
   margin-left: 200px;
 }
-.signup button1 {}
+.signup button1 {
+}
 .button1 {
   margin-top: 6px;
   display: flex;
@@ -38,7 +41,7 @@ a:hover, a:active {
   margin-left: 50px;
   width: 97px;
   height: 32px;
-  background: #FA8F2D;
+  background: #fa8f2d;
   border-radius: 5px 0px;
   font-family: "Open Sans";
   font-weight: 600;
@@ -51,12 +54,13 @@ a:hover, a:active {
 }
 
 .button1:hover {
-  background-color: #F0F82D;
-	transition: all 0.2s;
-	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+  background-color: #f0f82d;
+  transition: all 0.2s;
+  box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
 }
 
-.signin button2 {}
+.signin button2 {
+}
 .button2 {
   margin-top: 6px;
   display: flex;
@@ -65,7 +69,7 @@ a:hover, a:active {
   margin-left: 50px;
   width: 97px;
   height: 32px;
-  background: #FA8F2D;
+  background: #fa8f2d;
   border-radius: 5px 0px;
   font-family: "Open Sans";
   font-weight: 600;
@@ -79,8 +83,7 @@ a:hover, a:active {
 }
 
 .button2:hover {
-  background-color: #F0F82D;
-	transition: all 0.2s;
-	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+  background-color: #f0f82d;
+  transition: all 0.2s;
+  box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
 }
-
